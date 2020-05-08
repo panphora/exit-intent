@@ -5,12 +5,14 @@ Calls a callback whenever the user intends to exit the page
 ### How to use
 
 Include script:
-```
+
+```html
 <script src="https://cdn.jsdelivr.net/gh/panphora/exit-intent@0.5.0/on-exit-intent.js"></script>
 ```
 
 Use callback:
-```
+
+```js
 onExitIntent(() => {
   // triggers whenever someone intends to leave a page
 });
